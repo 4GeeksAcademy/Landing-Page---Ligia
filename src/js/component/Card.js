@@ -13,7 +13,7 @@ const Card = (props) => {
           <img src={props.image} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">The Sweet Charm of Innocence {props.mensaje} - {props.numero} </h5>
-            <p className="card-text">Jelly beans halvah halvah gingerbread oat cake. Danish soufflé gingerbread muffin sugar plum.</p>
+            <p className="card-text">{props.parrafo}</p>
             <a href="#" className="btn btn-primary">Go somewhere</a>
           </div>
         </div>
@@ -25,6 +25,7 @@ const Card = (props) => {
 Card.Proptypes = {
   numero: Proptypes.number,
   mensaje: Proptypes.string,
-  image: Proptypes.string
+  image: Proptypes.string,
+  parrafo: Proptypes.string,
 }
 export default Card
