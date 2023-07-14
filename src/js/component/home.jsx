@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar"
 import Header from "./Header"
+import Footer from "./Footer";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -18,8 +19,9 @@ let cardsInfo = [
 //create your first component
 const Home = () => {
 	return (
+		<>
+		<Navbar />
 		<div className="container">
-			<Navbar />
 			<Header/>
 			<div className="row">
 
@@ -31,7 +33,8 @@ const Home = () => {
 				}
 			</div>
 		</div>
-
+		<Footer/>
+		</>
 	);
 };
 
