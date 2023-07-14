@@ -1,0 +1,21 @@
+
+
+
+.header-container{
+    background-color: #dbd8e3;
+    padding: 20px;
+    width: 1150px;
+    text-align: justify;
+    display:inline-block;
+  
+  
+}
+
+.footer-container{
+    background-color:#363636 ;
+    color: white;
+    min-height: 12vh;
+    margin-top: 25px;
+    align-items: center;
+   
+}
